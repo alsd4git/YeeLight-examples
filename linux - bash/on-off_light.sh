@@ -1,0 +1,1 @@
+echo -ne '{"id":1,"method":"toggle","params":[]}\r\n' | nc -w1 192.168.1.94 55443
